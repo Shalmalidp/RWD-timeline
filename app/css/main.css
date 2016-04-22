@@ -6,11 +6,11 @@
   .container .line {
     width: 4px;
     margin-top: 20px;
-    height: 1090px;
+    height: 1620px;
     display: inline-block;
-    border: 1px solid #6CBFEE;
+    border: 1px solid #AFDCF8;
     border-radius: 2px;
-    background-color: #6CBFEE;
+    background-color: #AFDCF8;
     position: absolute;
     left: 19%;
     top: 1%;
@@ -25,7 +25,7 @@ ul li {
   color: lightgrey; }
 
 .f {
-  color: #6CBFEE; }
+  color: #AFDCF8; }
 
 .f1 {
   color: #3594CB; }
@@ -47,41 +47,43 @@ ul li {
 
 .round {
   border-radius: 50%;
-  border: 3px solid #6CBFEE;
-  background-color: #6CBFEE; }
+  border: 3px solid #AFDCF8;
+  background-color: #AFDCF8; }
   .round i {
     padding: 1px;
     color: #3594CB; }
 
 .content {
   position: relative;
-  border-radius: 2px;
-  background-color: #6CBFEE;
+  border-radius: 7px;
+  background-color: #AFDCF8;
   width: 50%;
   margin: 5px 0;
-  display: inline-block;
-  padding: 0 5%; }
+  display: inline-block; }
+  .content p {
+    padding: 5%; }
   .content .arrow {
     position: absolute;
-    color: #6CBFEE;
+    color: #AFDCF8;
     left: -9px;
     top: 10px;
     width: 0;
     height: 0;
     border-style: solid;
     border-width: 7px 10px 7px 0;
-    border-color: transparent #6CBFEE transparent transparent; }
+    border-color: transparent #AFDCF8 transparent transparent; }
   .content h6 {
     padding-left: 2%; }
 
 .content1 {
   position: relative;
-  border-radius: 2px;
+  border-radius: 7px;
   background-color: #3594CB;
   width: 50%;
   margin: 5px 0;
-  display: inline-block;
-  padding: 0 5%; }
+  display: inline-block; }
+  .content1 p {
+    padding: 5%; }
   .content1 .arrow {
     position: absolute;
     color: #3594CB;
