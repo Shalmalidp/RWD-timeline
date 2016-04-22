@@ -1,0 +1,133 @@
+$lightblue : #6CBFEE;
+$darkblue :#3594CB;
+
+
+
+.container{
+  width: 95%;
+  margin :2%;
+ display:inline-block;
+ position:relative;
+
+.line{
+  width:4px;
+  margin-top: 20px;
+  height:1090px;
+  display: inline-block;
+  border:1px solid $lightblue;
+  border-radius:2px;
+  background-color:$lightblue;
+  position:absolute;
+  left:19%;
+  top:1%;
+  z-index: -1;
+
+}
+ 
+}
+ul li{
+  display: inline-block;
+  width :100%;
+  list-style: none;
+  //vertical-align: top;
+
+}
+.date{
+  color:lightgrey;
+}
+
+.f{
+  color:$lightblue;
+}
+
+.f1{
+  color:$darkblue;
+}
+
+.first{
+  margin:5px 15px;
+  width:10%;
+  vertical-align:top;
+  text-align:right;
+  padding-right: 9px;
+  padding-top:-5px;
+  display:inline-block;
+}
+
+.line-icon{
+  vertical-align: top;
+  margin:10px;
+  display: inline-block;
+  vertical-align: top;
+}
+.round{
+  border-radius :50%;
+  border:3px solid $lightblue;
+  background-color:$lightblue;
+  i{
+    padding:1px;
+    color: $darkblue;
+  }
+}
+
+.content{
+  position:relative;
+  border-radius:2px;
+  background-color:$lightblue;
+  width:50%;
+  //border:1px solid blue;
+  margin:5px 0;
+  display:inline-block;
+  padding: 0 5%;
+
+     .arrow{
+      position: absolute;
+      color:$lightblue;
+      left:-9px;
+      top:10px;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 7px 10px 7px 0;
+      border-color: transparent $lightblue transparent transparent;
+    } 
+
+  h6{
+    padding-left:2%;
+  }
+ 
+}
+
+
+
+
+.content1{
+  position:relative;
+  border-radius:2px;
+  background-color:$darkblue;
+  width:50%;
+  //border:1px solid blue;
+  margin:5px 0;
+  display:inline-block;
+  padding: 0 5%;
+
+     .arrow{
+      position: absolute;
+      color:$darkblue;
+      left: -9px;
+      top: 10px;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 7px 10px 7px 0;
+      border-color: transparent $darkblue transparent transparent;
+    } 
+
+  h6{
+    padding-left:2%;
+  }
+  // p{
+  //   padding: 0 3%;
+  // }
+  
+}
